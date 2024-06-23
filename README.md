@@ -29,3 +29,9 @@ npm install
 ```bash
 npm start
 ```
+
+# Testing purpose
+```bash
+Username: admin
+Password: password
+```
