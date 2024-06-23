@@ -1,0 +1,67 @@
+/* src/components/Styles/Login.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://persianinventor.com/wp-content/uploads/2022/08/career_banner.png') no-repeat center center fixed;
+  background-size:cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.login-card {
+  width: 25rem;
+  border-radius: 10px;
+  border: none;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+
+.card-title {
+  font-weight: 700;
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.alert {
+  margin-top: 10px;
+  border-radius: 5px;
+}
