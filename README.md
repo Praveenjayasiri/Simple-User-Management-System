@@ -34,4 +34,7 @@ npm start
 ```bash
 Username: admin
 Password: password
+
+Username: user
+Password: password
 ```
